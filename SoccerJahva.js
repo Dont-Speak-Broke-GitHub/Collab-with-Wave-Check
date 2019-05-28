@@ -14,3 +14,5 @@ if(teamname === ""){
 document.getElementById("outputteamone").value = teamarray[0]
 }
 }
+
+document.getElementById("addteambutton").addEventListener("click", addteamsfunction);
