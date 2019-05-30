@@ -10,7 +10,8 @@
     <script src="SoccerJahva.js"></script>
     <link rel="stylesheet" href="Soccerproject.css">
 </head>
-<body>
+<body onload="loadFunction()">
+        
     <h1>Welcome to our football tournament simulator</h1>
     <input type="button" id="addteambutton"  value="Add Teams" />
     <input type="button"  id="editteambutton" value="Edit Teams" />
@@ -80,9 +81,8 @@
     <br>
     <br>
 
-
-    <input type="button" id="homepagebutton" value="Back to main page" />
-    <input type="button" id="addteambutton" value="Go to Add Teams" />
+    <button onclick="gotohomepageFunction()">Back to main page</button>
+    <button onclick="gotoaddteamsFunction()">Go to Add Teams</button>
     <script src="SoccerJahva.js"></script>
 </body>
 
