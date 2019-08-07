@@ -1,9 +1,68 @@
 document.getElementById("addteamsbtn").addEventListener("click", addteamsfunction);
 
 function addteamsFunction(){
+var teamsarray = []
 
-
+if(enterteamname1 == ""){
+  alert("enter a team name for all teams")
+  return
+}else{
+  teamsarray.push(enterteamname1)
 }
+
+if(enterteamname2 == ""){
+  alert("enter a team name for all teams")
+  return
+}else{
+  teamsarray.push(enterteamname2)
+}
+
+if(enterteamname3 == ""){
+  alert("enter a team name for all teams")
+  return
+}else{
+  teamsarray.push(enterteamname3)
+}
+
+
+if(enterteamname4 == ""){
+  alert("enter a team name for all teams")
+  return
+}else{
+  teamsarray.push(enterteamname4)
+}
+
+if(enterteamname5 == ""){
+  alert("enter a team name for all teams")
+  return
+}else{
+  teamsarray.push(enterteamname5)
+}
+
+if(enterteamname6 == ""){
+  alert("enter a team name for all teams")
+  return
+}else{
+  teamsarray.push(enterteamname6)
+}
+
+
+if(enterteamname7 == ""){
+  alert("enter a team name for all teams")
+  return
+}else{
+  teamsarray.push(enterteamname7)
+}
+
+if(enterteamname8 == ""){
+  alert("enter a team name for all teams")
+  return
+}else{
+  teamsarray.push(enterteamname8)
+}
+}
+
+
 
 document.getElementById("addteambutton").addEventListener("click", addteamsfunction);
 
