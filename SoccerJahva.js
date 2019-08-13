@@ -1,8 +1,9 @@
 document.getElementById("addteamsbtn").addEventListener("click", addteamsFunction);
 
 
-
-
+//This function takes all the team names entered and pushes them into the teamsarray. 
+//It also takes all the team names entered and pushes them into the seedsarray.
+//Finally, it takes those values in the arrays and displays them on the edit teams page
 function addteamsFunction(){
 var teamsarray = []
 var seedsarray = []
@@ -152,14 +153,18 @@ outputseedteam8.value = seedsarray[7]
 
 
 
+//The function below takes the teams in the teamsarray and rearranges them depending on what seed they are
+
 document.getElementById("play").addEventListener("click", playFunction);
 
 function playFunction(teamsarray, seedsarray){
 
+shuffle(teamsarray)
+
+alert(teamsarray)
 
 
-
-
+?????????
 }
 
 
@@ -167,7 +172,7 @@ function playFunction(teamsarray, seedsarray){
 
 
 
-
+//The functions below allow for navigation between html divs
 
 function gotoeditteamsFunction() {
     var x = document.getElementById("addteamshtml");
